@@ -5,6 +5,8 @@ from moviepy.editor import ImageSequenceClip, AudioFileClip
 from pathlib import Path
 from cog import BasePredictor, Input, Path
 
+# force new push
+
 # --- Helper Function ---
 def draw_symmetric_dots_vectorized(frame, overlay, x_coords, y1_coords, y2_coords, radius, color_full, color_half):
     """Vectorized version of drawing dots. Modifies 'frame' in-place."""
